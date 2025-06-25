@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum Beauty Nails Rottweil</title>
+    <link rel="stylesheet" href="Impressum.css">
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <header class="header">
+    <a href="index.html" class="logo">Beauty Nails Rottweil</a>
+
+
+    <div class="burger" id="burger" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <nav class="side-menu" id="sideMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="leistungen.html">Leistungen</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+
+
+
+
+    <main class="content">
+    <h1>Impressum</h1>
+
+    <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+    <p>
+      Max Mustermann<br />
+      Musterstraße 1<br />
+      78628 Rottweil<br />
+    </p>
+
+    <p><strong>Kontakt:</strong></p>
+    <p>
+      Telefon: <a href="tel:+491234567890">+49 123 4567890</a><br />
+      E-Mail: <a href="mailto:max@mustermann.de">max@mustermann.de</a>
+    </p>
+
+    <p><strong>Umsatzsteuer-ID:</strong></p>
+    <p>DE123456789</p>
+
+    <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong></p>
+    <p>Max Mustermann, Musterstraße 1, 78628 Rottweil</p>
+  </main>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo"> <a href="index.html">Beauty Nails Rottweil</a></div>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="Impressum.html">Impressum</a>
+        <a href="Datenschutz.html">Datenschutz</a>
+        <a href="AGB.html">AGB</a>
+       <a href="https://www.instagram.com/d_d.nails.rottweil/" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="28" height="28" />
+</a>
+
+      </nav>
+    </div>
+
+    <hr class="footer-line" />
+
+    <div class="footer-bottom">
+      <p>© 2025 <a href="index.html">Beauty Nails Rottweil™</a>. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+
+
+
+    <script>
+    const burger = document.getElementById('burger');
+    const menu = document.getElementById('sideMenu');
+    const overlay = document.getElementById('overlay');
+
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      menu.classList.toggle('active');
+      overlay.classList.toggle('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      burger.classList.remove('active');
+      menu.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
+
+
+    
+</body>
+</html>
